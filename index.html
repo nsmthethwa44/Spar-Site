@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spar Landing Page</title>
+
+    <!-- link scss  / css -->
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style/all.css">
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="header">
+        <div class="top-header">
+            <div class="container">
+                <ul class="topNav">
+                    <li><a href="#">About</a></li>
+                    <div class="divider"></div>
+                    <li><a href="#">Wishlist</a></li>
+                    <div class="divider"></div>
+                    <li><a href="#">My Account</a></li>
+                    <div class="divider"></div>
+                    <li><a href="#">Order Tracking</a></li>
+                </ul>
+
+                <p>100% secure delivery without contacting courier</p>
+                <p>Need help? Call Us <span>031 454 3447</span></p>
+            </div>
+        </div>
+
+        <div class="middle-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"> <img src="./img/logo.jpg" alt="" class="logo-img"></a>
+                </div>
+
+                <div class="search">
+                    <form action="" class="form">
+                        <select value="All Categories" class="text">
+                            <option value="All Categories">All Categories</option>
+                            <option name="Meet" id="">Meet</option>
+                            <option name="Breakfast" id="">Breakfast</option>
+                            <option name="Burger" id="">Burger</option>
+                            <option name="Alcohol" id="" class="text-option">Alcohol</option>
+                            <option name="Lorem Tea" id="">Lorem Tea</option>
+                        </select>
+                        <input type="text" class="text" placeholder="Search here..." required>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </div>
+
+                <div class="user-tab">
+                    <ul class="user-list">
+                        <li><i class="fa-solid fa-arrows-rotate"> <span class="counter">0</span></i>wishlist</li>
+                        <li><i class="fa-regular fa-heart"><span class="counter">0</span></i>Favorite</li>
+                        <li><i class="fa-solid fa-cart-plus"><span class="counter">0</span></i>Cart</li>
+                        <li><i class="fa-regular fa-user"></i>Account</li>
+                    </ul>
+                </div>
+
+                <div class="menuBox"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+
+        <div class="bottom-header">
+            <div class="container">
+                <div class="categories">
+                    <div><i class="fa-solid fa-list"></i> Browse All Categories <i class="fa-solid fa-angle-down"></i>
+                    </div>
+
+                    <ul class="list">
+                        <li>Cake</li>
+                        <li>Banana</li>
+                        <li>Lorem ipsum</li>
+                        <li>Meal</li>
+                        <li>Breakfast</li>
+                        <li>Burger</li>
+                        <li>Tea</li>
+                        <li>Apple</li>
+                        <li>Orange</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div>
+
+                <div class="navbar">
+                    <ul class="nav">
+                        <span><i class="fa-solid fa-fire"></i>Deals</span>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="number">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="details">
+                        <h3>031 565 4588</h3>
+                        <p>24/7 Support Centre</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header  -->
+
+    <!-- hero  -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="wrapper swiper mySwiper">
+                <div class="content swiper-wrapper">
+                    <div class="box swiper-slide">
+                        <img src="./img/bg-1.gif" alt="" class="bg-img">
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./img/bg-2.gif" alt="" class="bg-img">
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./img/bg-3.jpg" alt="" class="bg-img">
+                    </div>
+                    <div class="box swiper-slide">
+                        <img src="./img/bg-5.jpg" alt="" class="bg-img">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero  -->
+
+    <!-- featured categories  -->
+    <section class="featured section">
+        <div class="container">
+            <div class="title">
+                <h2 class="heading">Featured Categories</h2>
+                <ul class="list">
+                    <li class="active">Burger</li>
+                    <li>Cake & Milk</li>
+                    <li>Vegetables</li>
+                    <li>Pet Food</li>
+                    <li>Drink</li>
+                    <li>Pizza</li>
+                </ul>
+            </div>
+
+            <div class="wrapper  swiper mySlide">
+                <div class="content swiper-wrapper">
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-1.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>12 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-2.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>67 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-3.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>2 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-4.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>45 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-5.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>102 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-6.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>72 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-7.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>9 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-8.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>17 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-9.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>102 Items</p>
+                        </div>
+                    </div>
+                    <div class="box swiper-slide">
+                        <div class="box-img"><img src="./img/img-10.png" alt="" class="imgBox"></div>
+                        <div class="text-box">
+                            <h3>Lorem ipsum</h3>
+                            <p>29 Items</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerBox">
+                <div class="box">
+                    <div class="box-img"><img src="./img\img-10.jpg" alt="" class="imgBox"></div>
+                </div>
+                <div class="box">
+                    <div class="box-img"><img src="./img\img-13.jpg" alt="" class="imgBox"></div>
+                </div>
+                <div class="box">
+                    <div class="box-img"><img src="./img\img-12.jpg" alt="" class="imgBox"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end featured categories  -->
+
+    <!-- specials  -->
+    <section class="special">
+        <div class="container">
+            <div class="title">
+                <h2 class="heading">Our Specials</h2>
+                <ul class="list">
+                    <li class="active">Burger</li>
+                    <li>Cake & Milk</li>
+                    <li>Vegetables</li>
+                    <li>Pet Food</li>
+                    <li>Drink</li>
+                    <li>Pizza</li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-14.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-15.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-16.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-17.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-18.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-19.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-20.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-21.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-22.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-23.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-24.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//img-25.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text">
+                        <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                        <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                        <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end specials  -->
+
+    <!-- featured recipes  -->
+    <section class="featured-recipes section">
+        <div class="container">
+            <div class="title">
+                <h2 class="heading">Featured Recipes</h2>
+                <ul class="list">
+                    <li class="active">Burger</li>
+                    <li>Cake & Milk</li>
+                    <li>Vegetables</li>
+                </ul>
+            </div>
+
+            <div class="content">
+
+                <div class="content-box">
+                    <div class="poster">
+                        <img src="./img//img-31.jpg" alt="" class="img-poster">
+                    </div>
+
+                    <div class="findUs">
+                        <h2>Lorem, ipsum dolor. Find Us</h2>
+                        <div class="buttons">
+                            <a href="#"><button class="btn"><i class="fa-solid fa-location-dot"></i>Find Us</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-box">
+                    <div class="wrapper">
+
+                        <div class="box swiper-slide">
+                            <div class="poster">
+                                <img src="./img//img-27.jpg" alt="" class="img-poster">
+                            </div>
+                            <div class="text">
+                                <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                                <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                                <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="box swiper-slide">
+                            <div class="poster">
+                                <img src="./img//img-28.jpg" alt="" class="img-poster">
+                            </div>
+                            <div class="text">
+                                <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                                <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                                <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="box swiper-slide">
+                            <div class="poster">
+                                <img src="./img//img-29.jpg" alt="" class="img-poster">
+                            </div>
+                            <div class="text">
+                                <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                                <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                                <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="box swiper-slide">
+                            <div class="poster">
+                                <img src="./img//img-30.jpg" alt="" class="img-poster">
+                            </div>
+                            <div class="text">
+                                <a href="" class="box-icon"><i class="fa-regular fa-heart"></i></a>
+                                <a href="" class="box-icon"><i class="fa-regular fa-eye"></i></a>
+                                <a href="" class="box-icon"><i class="fa-solid fa-cart-plus"></i></a>
+                            </div>
+                        </div>
+                 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end featured recipes  -->
+
+    <!-- blog -->
+    <section class="blog">
+        <div class="container">
+            <div class="title">
+                <h2 class="heading">Recent News</h2>
+            </div>
+
+            <div class="content">
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//blog-1.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text-box">
+                        <div class="writer-box"><img src="./img//writer.jpg" alt="" class="img-writer"></div>
+                        <h3 class="heading">Lorem ipsum dolor sit amet.</h3>
+                    </div>
+                    <div class="views">
+                        <span><i class="fa-solid fa-heart"></i> 23</span>
+                        <span><i class="fa-solid fa-comment"></i> 78</span>
+                        <span><i class="fa-solid fa-eye"></i> 345</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//blog-2.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text-box">
+                        <div class="writer-box"><img src="./img//writer.jpg" alt="" class="img-writer"></div>
+                        <h3 class="heading">Lorem ipsum dolor sit amet.</h3>
+                    </div>
+                    <div class="views">
+                        <span><i class="fa-solid fa-heart"></i> 3</span>
+                        <span><i class="fa-solid fa-comment"></i> 81</span>
+                        <span><i class="fa-solid fa-eye"></i> 45</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//blog-3.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text-box">
+                        <div class="writer-box"><img src="./img//writer.jpg" alt="" class="img-writer"></div>
+                        <h3 class="heading">Lorem ipsum dolor sit amet</h3>
+                    </div>
+                    <div class="views">
+                        <span><i class="fa-solid fa-heart"></i> 24</span>
+                        <span><i class="fa-solid fa-comment"></i> 7</span>
+                        <span><i class="fa-solid fa-eye"></i> 35</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="poster">
+                        <img src="./img//blog-4.jpg" alt="" class="img-poster">
+                    </div>
+                    <div class="text-box">
+                        <div class="writer-box"><img src="./img//writer.jpg" alt="" class="img-writer"></div>
+                        <h3 class="heading">Lorem ipsum dolor sit amet.</h3>
+                    </div>
+                    <div class="views">
+                        <span><i class="fa-solid fa-heart"></i> 2</span>
+                        <span><i class="fa-solid fa-comment"></i> 38</span>
+                        <span><i class="fa-solid fa-eye"></i> 65</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog -->
+
+    <!-- menus  -->
+    <section class="menu section">
+        <div class="container">
+            <div class="content">
+                <div class="menu-box">
+                    <div class="menu-title">
+                        <h3 class="heading">Top Selling</h3>
+                    </div>
+                    <div class="item">
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-1.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R403.00</h3>
+                                    <h3 class="heading before">R83.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-2.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R38.00</h3>
+                                    <h3 class="heading before">R13.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-3.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R30.00</h3>
+                                    <h3 class="heading before">R103.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu-box">
+                    <div class="menu-title">
+                        <h3 class="heading">Lorem Ipsum.</h3>
+                    </div>
+                    <div class="item">
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-4.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R403.00</h3>
+                                    <h3 class="heading before">R83.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-5.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R38.00</h3>
+                                    <h3 class="heading before">R13.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-6.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R30.00</h3>
+                                    <h3 class="heading before">R103.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-box">
+                    <div class="menu-title">
+                        <h3 class="heading">Recent Added</h3>
+                    </div>
+                    <div class="item">
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-7.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R403.00</h3>
+                                    <h3 class="heading before">R83.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-8.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R38.00</h3>
+                                    <h3 class="heading before">R13.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-9.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R30.00</h3>
+                                    <h3 class="heading before">R103.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-box">
+                    <div class="menu-title">
+                        <h3 class="heading">Most Lorem</h3>
+                    </div>
+                    <div class="item">
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-10.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R403.00</h3>
+                                    <h3 class="heading before">R83.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-11.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R38.00</h3>
+                                    <h3 class="heading before">R13.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-box">
+                            <div class="item-img-box"><img src="./img//item-12.png" alt="" class="item-img"></div>
+                            <div class="item-text">
+                                <p>Lorem ipsum dolor sit </p>
+                                <div class="rating-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>(5.8)</span>
+                                </div>
+                                <div class="prices">
+                                    <h3 class="heading after">R30.00</h3>
+                                    <h3 class="heading before">R103.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end menus  -->
+
+    <!-- action  -->
+    <section class="action section">
+        <div class="container">
+            <div class="content"></div>
+            <div class="containerBox">
+                <div class="box">
+                    <i class="fa-solid fa-tags"></i>
+                    <div class="text-box">
+                        <h3>Best Prices Offered</h3>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-truck"></i>
+                    <div class="text-box">
+                        <h3>Free Delivery</h3>
+                        <p>Lorem ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <div class="text-box">
+                        <h3>Support Available</h3>
+                        <p>24/7 support</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                    <div class="text-box">
+                        <h3>Easy Returns</h3>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end action  -->
+
+    <!-- footer  -->
+    <footer class="footer section">
+        <div class="container">
+           <div class="content">
+            <div class="logo">
+                <a href="#home"><img src="./img/logo.jpg" alt="" class="logoImg"></a>
+            </div>
+            <div class="newsletter">
+                <h3>Subscribe and Get 30% off Your First Order.</h3>
+                <form action="" class="form">
+                    <input type="text" class="text" placeholder="Enter Your Email">
+                    <div class="buttons">
+                        <a href="#"><button class="btn">Subscribe</button></a>
+                    </div>
+                </form>
+            </div>
+           </div>
+
+           <div class="divider"></div>
+
+           <div class="containerBox">
+            <div class="box">
+                <h3>Need Help?</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Dolores cum ratione asperiores repre.</p>
+                    <ul class="cont-info">
+                        <li><i class="fa-solid fa-phone"></i>Phone: 083 343 5643</li>
+                        <li><i class="fa-solid fa-clock"></i>Working Hourse: Monday - Friday: 09:00am - 17:00pm</li>
+                        <li><i class="fa-solid fa-envelope"></i>Email: example@ spar.co.za</li>
+                    </ul>
+            </div>
+            <div class="box">
+                <h3>Company</h3>
+                <ul class="nav link">
+                    <li><a href="#" class="">Our Menu</a></li>
+                    <li><a href="#">Know Our Food</a></li>
+                    <li><a href="#">Deals &  Our App</a></li>
+                    <li><a href="#">MyMRewards</a></li>
+                    <li><a href="#">Family Hub</a></li>
+                    <li><a href="#">Find a Store</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <ul class="link"> 
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Customer Services</h3>
+                <ul class="link">
+                    <li>Delivery</li>
+                    <li>Returns & Complaint</li>
+                    <li>Cookie Policy</li>
+                    <li>Rewards Disclaimer</li>
+                    <li>Competition Terms</li>
+                </ul>
+
+                <div class="apps">
+                    <div class="boxImg"><img src="./img/app-1.png" alt="" class="imgBox"></div>
+                    <div class="boxImg"><img src="./img/app-2.png" alt="" class="imgBox"></div>
+                </div>
+            </div>
+           </div>
+
+           <div class="divider"></div>
+
+           <h6 class="copyright">Created By: <span>Nkululeko Mthethwa</span><img src="./img/cool_20px.png" alt="">| &copy;2024 | All Right Reserved.</h6>
+        </div>
+    </footer>
+    <!-- end footer  -->
+
+    <!-- scroll top   -->
+    <div class="scrollTop">
+        <a href="#home"><button class="goTop"><i class="fa-solid fa-arrow-up-long"></i></button></a>
+    </div>
+    <!-- end scroll top  -->
+    
+    <!-- link js  -->
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
